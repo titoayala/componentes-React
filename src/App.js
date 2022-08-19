@@ -8,11 +8,12 @@ function App() {
   const [clave, setClave] = useState("")
 
   return (
-    <>
+    <div className='formulario'>
       <h1>Desafío Estado de los Componentes y Eventos</h1>
+      <hr></hr>
       <Input nombre={nombre} setNombre={setNombre} clave={clave} setClave={setClave}/>
       <Boton nombre={nombre} clave={clave}/>
-    </>
+    </div>
 
   );
 }
