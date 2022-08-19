@@ -1,6 +1,7 @@
 import Form from 'react-bootstrap/Form';
 
-const Datos = ({nombre, setNombre, clave, setClave}) => (
+const Datos = ({ nombre, setNombre, clave, setClave }) => (
+
     <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label className='etiqueta'>Nombre</Form.Label>
